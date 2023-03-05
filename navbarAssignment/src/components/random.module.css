@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.navBlock{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: 	rgba(31, 25, 25, 0.825);
+    font-family: 'Roboto', sans-serif;
+}
+.nav_container {
+    display: flex;
+    justify-content: flex-start;
+    height: 79px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav_menu{
+    list-style: none;
+    display: flex;
+    padding-left: 2rem;
+    margin: auto 0.1rem auto auto;
+}
+.brand_logo{
+    margin: auto 0 auto 1rem;
+}
+.nav_item a{
+    text-decoration: none;
+    color: wheat;
+    padding: 0.5rem;
+}
+.searchfield{
+    margin: auto 0.5rem auto auto;
+    
+}
+.searchtext{
+    background-color: transparent;
+    color: rgba(96, 80, 129, 0.162);
+    border: 1px solid hsla(0, 19%, 88%, 0.6);
+    line-height: 1.4rem;
+    height: 38px;
+    width: 318px;
+    transition: 0.5s;
+    padding-left:1rem ;
+    border-radius: 6px;
+
+}
+.login_btn{
+    margin:auto 2rem auto 0.7rem ;
+}
+.login_btn button{
+    background-color: transparent;
+    color: wheat;
+    border: 1px solid wheat;
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.search{
+    margin:auto 2rem auto 0 ;
+    background-color: white;
+    width: 28px;
+    height: 28px;
+    border-radius: 100%; 
+}
+.search img{
+    vertical-align: middle;
+    padding-left: 6px;
+    padding-top: 5px;
+}
+
+

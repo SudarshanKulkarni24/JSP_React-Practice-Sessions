@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.navBlock{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: 	purple;
+    font-family: 'Roboto', sans-serif;
+}
+.nav_container {
+    display: flex;
+    justify-content: flex-start;
+    height: 79px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav_menu{
+    list-style: none;
+    display: flex;
+    padding-left: 2rem;
+    margin: auto 0;
+}
+.brand_logo{
+    margin: auto 0 auto auto;
+}
+.nav_item a{
+    text-decoration: none;
+    color: orange;
+    padding: 0.5rem;
+}
+.searchfield{
+    margin: auto 2rem auto auto;
+    
+}
+.searchtext{
+    background-color: transparent;
+    color: white;
+    border: 1px solid hsl(0deg 0% 51% / 60%);
+    line-height: 1.4rem;
+    height: 38px;
+    width: 318px;
+    transition: 0.5s;
+    padding-left:1rem ;
+    border-radius: 6px;
+    display: none;
+}
+.login_btn{
+    margin:auto 2rem auto 1rem ;
+}
+.login_btn button{
+    background-color: transparent;
+    color: orange;
+    border: 1px solid orange;
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+    height: 30px;
+}
+.callus{
+    margin:auto 1rem auto 0.1rem ;
+    background-color: orange;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+.callus img{
+    vertical-align: middle;
+    padding-left: 4px;
+    padding-top: 5px;
+}
+.search{
+    margin:auto auto auto 0.1rem ;
+    background-color: orange;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%; 
+}
+.search img{
+    vertical-align: middle;
+    padding-left: 4px;
+    padding-top: 5px;
+}
+.search:hover{
+    
+}
+

@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.navBlock{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+}
+.nav_container {
+    display: flex;
+    justify-content: flex-start;
+    height: 79px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+
+}
+
+.nav_menu{
+    list-style: none;
+    display: flex;
+    padding-left: 3rem;
+    margin: auto 2rem auto 1rem;
+}
+.brand_logo{
+    margin: auto 0 auto 10rem;
+}
+.nav_item a{
+    text-decoration: none;
+    padding: 2rem;
+    color: black;
+}
+.signup_btn{
+    margin:auto auto auto 0.7rem ;
+}
+.signup_btn button{
+    background-color: green;
+    color: white;
+
+    border: 1px solid ;
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+    height: 35px;
+}
+.demo_btn{
+    margin:auto 1rem auto 0.1rem ;
+}
+.demo_btn button{
+    background-color: rgba(235, 235, 235, 0.699);
+    border: 0.01px none rgba(233, 232, 232, 0.699);
+    color: black;
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+    height: 35px;
+}
+.candidate_btn{
+    margin:auto 0.1rem auto 1.4rem ;
+}
+.candidate_btn button{
+    background-color: white;
+    border: 0.01px none white;
+    color: black;
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+    height: 35px;
+}
+
+
